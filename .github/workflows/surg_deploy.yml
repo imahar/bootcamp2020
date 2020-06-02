@@ -31,5 +31,5 @@ jobs:
     - name: Install Surg
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ verdant-spark.surge.sh --token ${{secret.SURGE_TOKEN }}
+      run: surge ./ verdant-spark.surge.sh --token ${{secrets.SURGE_TOKEN }}
     
